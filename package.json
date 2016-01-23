@@ -1,0 +1,24 @@
+{
+  "name": "trim-package-json",
+  "version": "1.0.0",
+  "description": "trim and copy pkg.json to sub directory, helpful for publishing different dirs than root repo",
+  "main": "index.js",
+  "bin": {
+    "trim-pkg": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jquense/trim-package-json.git"
+  },
+  "author": "Jason Quense",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jquense/trim-package-json/issues"
+  },
+  "homepage": "https://github.com/jquense/trim-package-json#readme",
+  "dependencies": {
+    "mkdirp": "^0.5.1",
+    "yargs": "^3.32.0",
+    "lodash": "^4.0.0"
+  }
+}
